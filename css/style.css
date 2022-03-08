@@ -1,0 +1,115 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+	background-color:#FF7F50;
+	padding:10px 0;
+}
+.logo{}
+.navbar-brand{
+    font-weight: 700;
+}
+.menu ul li a{
+font-weight:700;
+font-size:22px;
+color:#010101 !important;
+text-transform:capitalize;
+padding:0 50px !important;
+transition:.3s;
+}
+.menu ul li:last-child a{
+	padding-right:0 !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: dimgray;
+    padding-bottom: 10px;
+}
+.orange-highlight{
+color:#FF7F50;
+}
+.half-width{
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner1.png");
+    background-repeat: no-repeat;
+   
+   
+}
+section{
+    height: 800px;
+    padding-bottom: 300px;
+    padding-top: 100px;
+   
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, #FFA07A, #FF7F50 );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.half-area img{
+width: 100%;
+}
+.half-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exprience-area h1{
+    text-align: center;
+    padding-bottom: 20px;
+    
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    text-align:left;
+    padding-top: 30px;
+}
+#half{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, #FFA07A, #FF7F50 );
+    border-image-slice:1;
+}
+#full{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, #40E0D0, #00BFFF );
+    border-image-slice:1;
+}
+footer{
+    background-color: #FF7F50;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
